@@ -14,11 +14,6 @@ Hey friends
 
 ```ts
 function greet(name: string): string {
-	return `Hello ${name}!`
-}
-
-function makeCoffee(callback: (coffee: string) => void): void {
-	const coffee = '☕️'
-	callback(coffee)
+	console.log(`Hello ${name}`)
 }
 ```
